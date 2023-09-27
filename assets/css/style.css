@@ -1,0 +1,52 @@
+html {
+    font-size: 100%;
+}
+body {
+    background-color: #FFFFCC;
+    /* margin-left: 1.25rem; */
+    padding: 1.00rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header h2 {
+    margin-right: 43.75rem;
+}
+header img {
+    width: 15.625rem;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+
+}
+nav ul  {
+   display: flex;
+   height: 4.0625rem;
+   align-items: center;
+   background-color: black;
+   list-style  : none;
+}
+nav ul li {
+    padding: 0.3125rem;
+}
+nav ul li a {
+    color: white;
+
+}
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    display:flex ;
+}
+section article {
+    width: 80%;
+}
+.colonne {
+    background-color: gray;
+    height: 100px;
+    width: 20%;
+}                                 
