@@ -14,7 +14,7 @@ header h2 {
     margin-right: 43.75rem;
 }
 header img {
-    width: 15.625rem;
+    width: 20%;
 }
 nav {
     display: flex;
@@ -22,7 +22,7 @@ nav {
 }
 nav ul  {
    display: flex;
-   height: 4.0625rem;
+   /* height: 4.0625rem; */
    align-items: center;
    background-color: black;
    list-style  : none;
@@ -36,7 +36,7 @@ nav ul li a {
 }
 .promotion img {
     width: 100%;
-    height: 18.4375rem;
+    /* height: 18.4375rem; */
 }
 h1 {
     color: rgb(0, 0, 0);
@@ -91,4 +91,21 @@ footer ul li a {
 /* tableau page */
 table img {
     max-width: 6.25rem;
+}
+/* breakpoint 768 ? */
+@media (max-width: 768px) {
+    header h2 {
+        margin-right: auto;
+    }
+    aside {
+        display: none;
+    }
+    nav ul {
+        flex-direction: column;
+        /* height: 4.100rem; */
+    }
+    /* la taille de ul est trop petit pour tout les li que faire ? */
+    p h1 h2 {
+        font-size: 16px;
+    }
 }
