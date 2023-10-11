@@ -9,9 +9,15 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    vertical-align: middle;
 }
-header h2 {
+header span {
     margin-right: 43.75rem;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1.97rem;
+
 }
 header img {
     width: 20%;
@@ -43,7 +49,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 100%;
 }
-section {
+.Accueil {
     display:flex ;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -53,7 +59,7 @@ hr {
     border: 1px solid #ccc;
 }
 
-.article {
+section {
     flex: 2;
     display: flex;
     flex-wrap: wrap;

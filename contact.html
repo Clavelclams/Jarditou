@@ -37,7 +37,7 @@
                 <label for="prenom">Prénom*:</label>
                 <input type="text" id="prenom" name="prenom" required>
                 <br>
-                <label>Sexe*:</label>
+                <span>Sexe*:</span>
                 <input type="radio" id="homme" name="sexe" value="Homme" required>
                 <label for="homme">Homme</label>
                 <input type="radio" id="femme" name="sexe" value="Femme" required>
@@ -63,7 +63,7 @@
                 <legend>Votre demande</legend>
                 <label for="sujet">Sujet*:</label>
                 <select name="sujet" id="sujet" required>
-                    <option value disabled selected >Veuillez sélectionner un sujet</option>
+                    <option hidden disabled selected >Veuillez sélectionner un sujet</option>
                     <option value="Sujet1">Mes commandes</option>
                     <option value="Sujet2">Quetion sur un produit</option>
                     <option value="Sujet3">Réclamation</option>
