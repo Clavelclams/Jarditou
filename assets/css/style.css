@@ -177,6 +177,15 @@ table img {
         padding-bottom: 2.1rem; 
     }
     header img {
-        width: 25%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    header span {
+        display: none;
+
+    }
+    header img {
+       width: 100%;
     }
 }
